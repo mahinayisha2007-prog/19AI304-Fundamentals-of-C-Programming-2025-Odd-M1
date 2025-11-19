@@ -26,6 +26,22 @@ To build a C program that prints integer, float,character, and string literals o
 ### Step 4: 
    Stop
 # Program:
+```
+#include <stdio.h>
+
+int main() {
+int intLiteral = 25;
+float floatLiteral = 10.75;
+char charLiteral = 'A';
+char stringLiteral[] = "Hello";
+
+printf("Integer Literal: %d\n", intLiteral);
+printf("Float Literal: %.2f\n", floatLiteral);
+printf("Character Literal: %c\n", charLiteral);
+printf("String Literal: %s\n", stringLiteral);
+
+return 0;
+```
 # Output:
 # Result: 
 Thus, the program was implemented and executed successfully, and the required output was obtained.
@@ -57,6 +73,19 @@ Thus, the program was implemented and executed successfully, and the required ou
 ### Step 6:  
   Stop
 # Program:
+```
+#include <stdio.h>
+
+#define MACRO_VALUE 100
+
+int main() {
+const int constVar = 50;
+
+printf("Macro constant value: %d\n", MACRO_VALUE);
+printf("Constant variable value: %d", constVar);
+
+return 0;
+```
 # Output:
 # Result: 
 Thus, the program was implemented and executed successfully, and the required output was obtained.
