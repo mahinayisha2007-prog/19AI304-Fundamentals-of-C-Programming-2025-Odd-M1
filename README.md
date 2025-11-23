@@ -41,6 +41,7 @@ printf("Character Literal: %c\n", charLiteral);
 printf("String Literal: %s\n", stringLiteral);
 
 return 0;
+}
 ```
 # Output:
 
@@ -88,6 +89,7 @@ printf("Macro constant value: %d\n", MACRO_VALUE);
 printf("Constant variable value: %d", constVar);
 
 return 0;
+}
 ```
 # Output:
 
@@ -128,6 +130,7 @@ printf("Float value: %.2f\n", b);
 printf("Double value: %lf\n", c);
 printf("Character value: %c", d);
 return 0;
+}
 ```
 # Output:
 
@@ -193,6 +196,7 @@ printf("Right shift (a >> b): %d\n", a >> b);
 printf("Bitwise NOT of a (~a): %d\n", ~a);
 printf("Bitwise NOT of b (~b): %d\n", ~b);
 return 0;
+}
 ```
 
 # Output:
@@ -272,6 +276,7 @@ if (ch=='a' || ch=='e' || ch=='i' || ch=='o' || ch=='u' ||
 }
 
 return 0;
+}
 ```
 
 # Output:
